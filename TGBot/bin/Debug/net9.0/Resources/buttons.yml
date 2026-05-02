@@ -1,0 +1,15 @@
+/start:
+  text: "Запустить бота 🤖"
+  action: |
+    Привет!!!
+  reply: false
+  column: 1
+
+/help:
+  text: "Помощь 🆘"
+  action: |
+      Мои команды:
+        /start
+        /help
+  reply: true
+  column: 1
